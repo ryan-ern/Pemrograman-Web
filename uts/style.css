@@ -1,0 +1,153 @@
+body{
+    margin: 0;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif
+}
+p{
+    text-align: justify;
+}
+.header{
+    background-color: #0097A7;
+    padding: 10px;
+    text-align: center;
+    color: #FFFFFF;
+}
+.navbar{
+    background-color: #B2EBF2;
+    padding: 20px;
+}
+.navbar2{
+    background-color: #B2EBF2;
+    padding: 1px;
+}
+ul.breadcrumb {
+    list-style: none;
+}
+  
+ul.breadcrumb li {
+    display: inline;
+    font-size: 18px;
+}
+  
+ul.breadcrumb li+li:before {    
+    content: "/\00a0";
+}
+
+ul.breadcrumb li a {
+    color: #0275d8;
+    text-decoration: none;
+}
+  
+ul.breadcrumb li a:hover {
+    color: #01447e;
+    text-decoration: underline;
+}
+
+a{
+    color: black;
+    text-decoration: none;
+    padding: 20px;
+}
+.navbar a:hover{
+    color: #FFFFFF;
+    background-color: #009688;
+}
+
+input[type=search]{
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+#main{
+    display: flex;
+}
+.box {
+    background-color: #00BCD4;
+    margin: 10px;
+    padding: 10px;
+    border-radius: 5px;
+    width: auto;
+}
+.box1{
+    background-color: #00BCD4;
+    margin: 20px;
+    padding: 10px;
+    border-radius: 5px;
+}
+.box1 img{
+    width: 30%;
+    float: left;
+    margin: 11px;
+}
+img{
+    width: 80%;
+    border-radius: 8px;
+    padding: 4px;
+    margin: auto;
+    display: block;
+}
+button{
+    border: none;
+    padding: 10px 20px;
+    color: #FFFFFF;
+    background-color: #009688;
+}
+button:hover{
+    background-color: #B2EBF2;
+    color: #000000;
+}
+.footer{
+    background-color: #0097A7;
+    padding: 20px;
+    text-align: center;
+}
+
+.pagination a {
+    color: black;
+    margin: auto;
+    padding: auto;
+    text-decoration: none;
+}
+  
+.pagination a.active {
+    background-color: dodgerblue;
+    color: white;
+}
+  
+.pagination a:hover:not(.active) {
+    background-color: #ddd;
+}
+
+.form{
+    border-radius: 5px;
+    padding: 20px;
+}
+input[type=text], textarea{
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    resize: none;
+}
+
+input[type=submit] {
+    width: 100%;
+    background-color: #4CAF50;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  input[type=submit]:hover {
+    background-color: #45a049;
+  }
